@@ -1,0 +1,33 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+* {
+	font-family: poppins, sans-serif;
+}
+html,
+body,
+#app,
+#app > div {
+    height: 100%;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+#root {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 1rem;
+    min-height: 100vh;
+    position: relative;
+    @media (min-width: 992px) {
+        padding: 0 75px;
+    }
+    @media (min-width: 620px) {
+        padding: 0 40px;
+    }
+}
