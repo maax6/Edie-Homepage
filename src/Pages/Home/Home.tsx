@@ -1,8 +1,8 @@
-// import { Welcome } from "../../Components/Welcome"
+import { Banner } from "../../Components/Banner/Banner"
 export function Home() {
     return (
         <>
-			helloworld
+			<Banner />
         </>
     )
 }

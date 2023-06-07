@@ -19,9 +19,9 @@ export function Nav() {
     }
   return (
 	<>
-	<header  className="head ;" >
-		<h1 className="head__logo">Edie</h1>
-		<ul className={`head__nav ${Open ? 'head__nav--active' : ''}`}>
+	<header  className="head  sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl " >
+		<h1 className="head__logo sm:text-base font-bold md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl ">Edie</h1>
+		<ul className={`head__nav ${Open ? 'head__nav--active' : ''} `}>
 			<li
 				className={`head__nav__item ${
 					activePage === 'Home' ? 'head__nav__item--active' : ''
